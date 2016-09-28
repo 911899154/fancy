@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.summary      = 'A short description of CocopodsTest.'
   s.homepage     = 'https://github.com/911899154/fancy'
   s.license      = 'MIT'
-  s.author             = { 'KangZhang' => '911899154@qq.com' }
+  s.author       = { 'KangZhang' => '911899154@qq.com' }
   s.source       = { :git => 'https://github.com/911899154/fancy.git', :tag => s.version }
   s.platform     = :ios
-  s.source_files = 'Cocopods/*.{h,m}'
+  s.source_files = 'hahahhahaha.{h,m}'
   s.requires_arc = true
 end
