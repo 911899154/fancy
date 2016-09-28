@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/911899154/fancy.git", :tag => "#{s.version}" }
   s.platform     = :ios
 
-  s.source_files  = "/CocopodsTest/*"
+  s.source_files  = "CocopodsTest/*"
 end
