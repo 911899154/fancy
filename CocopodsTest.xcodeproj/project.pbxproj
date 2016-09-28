@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11F879D1D9B9CE300ABE36B /* hahahhahaha.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F879C1D9B9CE300ABE36B /* hahahhahaha.m */; };
 		B1DF08AE1D9A566E00A4DE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF08AD1D9A566E00A4DE92 /* main.m */; };
 		B1DF08B11D9A566E00A4DE92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF08B01D9A566E00A4DE92 /* AppDelegate.m */; };
 		B1DF08B41D9A566E00A4DE92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF08B31D9A566E00A4DE92 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		B1DF08BC1D9A566E00A4DE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DF08BA1D9A566E00A4DE92 /* LaunchScreen.storyboard */; };
 		B1DF08C71D9A566E00A4DE92 /* CocopodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF08C61D9A566E00A4DE92 /* CocopodsTestTests.m */; };
 		B1DF08D21D9A566E00A4DE92 /* CocopodsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF08D11D9A566E00A4DE92 /* CocopodsTestUITests.m */; };
-		B1DF08E51D9A5EFD00A4DE92 /* NSObject+Logfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF08E31D9A5EFD00A4DE92 /* NSObject+Logfile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B11F879B1D9B9CE300ABE36B /* hahahhahaha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hahahhahaha.h; path = Cocopods/hahahhahaha.h; sourceTree = "<group>"; };
+		B11F879C1D9B9CE300ABE36B /* hahahhahaha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = hahahhahaha.m; path = Cocopods/hahahhahaha.m; sourceTree = "<group>"; };
 		B1DF08A91D9A566E00A4DE92 /* CocopodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocopodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DF08AD1D9A566E00A4DE92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1DF08AF1D9A566E00A4DE92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		B1DF08CD1D9A566E00A4DE92 /* CocopodsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocopodsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DF08D11D9A566E00A4DE92 /* CocopodsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocopodsTestUITests.m; sourceTree = "<group>"; };
 		B1DF08D31D9A566E00A4DE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1DF08E31D9A5EFD00A4DE92 /* NSObject+Logfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Logfile.m"; sourceTree = "<group>"; };
-		B1DF08E41D9A5EFD00A4DE92 /* NSObject+Logfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Logfile.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,8 @@
 		B1DF08A01D9A566E00A4DE92 = {
 			isa = PBXGroup;
 			children = (
+				B11F879B1D9B9CE300ABE36B /* hahahhahaha.h */,
+				B11F879C1D9B9CE300ABE36B /* hahahhahaha.m */,
 				B1DF08AB1D9A566E00A4DE92 /* CocopodsTest */,
 				B1DF08C51D9A566E00A4DE92 /* CocopodsTestTests */,
 				B1DF08D01D9A566E00A4DE92 /* CocopodsTestUITests */,
@@ -104,7 +106,6 @@
 		B1DF08AB1D9A566E00A4DE92 /* CocopodsTest */ = {
 			isa = PBXGroup;
 			children = (
-				B1DF08E21D9A5EE000A4DE92 /* podfile */,
 				B1DF08AF1D9A566E00A4DE92 /* AppDelegate.h */,
 				B1DF08B01D9A566E00A4DE92 /* AppDelegate.m */,
 				B1DF08B21D9A566E00A4DE92 /* ViewController.h */,
@@ -142,15 +143,6 @@
 				B1DF08D31D9A566E00A4DE92 /* Info.plist */,
 			);
 			path = CocopodsTestUITests;
-			sourceTree = "<group>";
-		};
-		B1DF08E21D9A5EE000A4DE92 /* podfile */ = {
-			isa = PBXGroup;
-			children = (
-				B1DF08E31D9A5EFD00A4DE92 /* NSObject+Logfile.m */,
-				B1DF08E41D9A5EFD00A4DE92 /* NSObject+Logfile.h */,
-			);
-			path = podfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DF08B41D9A566E00A4DE92 /* ViewController.m in Sources */,
+				B11F879D1D9B9CE300ABE36B /* hahahhahaha.m in Sources */,
 				B1DF08B11D9A566E00A4DE92 /* AppDelegate.m in Sources */,
-				B1DF08E51D9A5EFD00A4DE92 /* NSObject+Logfile.m in Sources */,
 				B1DF08AE1D9A566E00A4DE92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

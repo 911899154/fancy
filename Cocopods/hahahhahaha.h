@@ -1,15 +1,13 @@
 //
-//  NSObject+Logfile.h
+//  hahahhahaha.h
 //  CocopodsTest
 //
-//  Created by fancy on 16/9/27.
+//  Created by fancy on 16/9/28.
 //  Copyright © 2016年 kangzhang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (Logfile)
-
-+ (void)log;
+@interface hahahhahaha : NSObject
 
 @end
