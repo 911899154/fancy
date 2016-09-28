@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { 'KangZhang' => '911899154@qq.com' }
   s.source       = { :git => 'https://github.com/911899154/fancy.git', :tag => s.version }
-  s.platform     = :ios
   s.source_files = 'hahahhahaha.{h,m}'
   s.requires_arc = true
 end
